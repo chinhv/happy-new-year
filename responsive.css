@@ -1,0 +1,21 @@
+@media (max-width: 800px) {
+    .loading .bar {
+        width: 200px;
+        height: 30px;
+        margin: 0 15px;
+    }
+    .loading .bar::after {
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 5px;
+        line-height: 26px;
+    }
+    .loading h2{
+        font-size: 20px;
+    }
+    section h2 {
+        font-size: 4em;
+        margin: 0 0.5em;
+        line-height: 0.9em;
+    }
+}
